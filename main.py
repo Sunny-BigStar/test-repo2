@@ -1,7 +1,7 @@
 #main.py
 
 #두 수 입력받기
-first = intput("Enter the first number :  ")
+first = input("Enter the first number :  ")
 second = input("Enter the second number :  ")
 
 # 정수로 변환
@@ -10,8 +10,8 @@ num2 = int(second)
 
 # 합, 차, 곱 계산
 sum_result = num1 + num2
-sub_result = num1 + num2
-mul_result - num1 * num2
+sub_result = num1 - num2
+mul_result = num1 * num2
 
 # 결과 출력
 print("Sum: ", sum_result)
